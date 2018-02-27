@@ -75,6 +75,11 @@ public class Sprite {
         this.y = y;
     }
 
+    /**
+     * 爆炸图片中点移动
+     * @param centerX
+     * @param centerY
+     */
     public void centerTo(float centerX, float centerY){
         float w = getWidth();
         float h = getHeight();
